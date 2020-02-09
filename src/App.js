@@ -5,10 +5,10 @@ import TodosContainer from './components/todos/TodosContainer'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <React.Fragment className="App">
         <CreateTodo />
         <TodosContainer />
-      </div>
+      </React.Fragment>
     );
   }
 }
